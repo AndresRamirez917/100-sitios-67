@@ -50,6 +50,20 @@ img {
   gap: 50px;
 }
 
+::-moz-placeholder {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 600;
+  content: "\f007";
+  text-align: right;
+}
+
+::placeholder {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 600;
+  content: "\f007";
+  text-align: right;
+}
+
 .btn {
   display: block;
   padding: 10px 20px;

@@ -53,6 +53,12 @@ img {
     gap: 50px;
 }
 
+//iconos font awesome
+::placeholder {
+    font-family: "Font Awesome 5 Free"; font-weight: 600; content: "\f007";
+    text-align: right;
+}
+
 .btn {
     display: block;
     padding: 10px 20px;
