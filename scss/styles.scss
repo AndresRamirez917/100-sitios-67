@@ -31,20 +31,21 @@ ul {
 }
 
 .title {
-    font-size: 3rem;
+    font-size: 5rem;
     font-weight: 400;
+    margin: 8rem 0 2rem 0;
 }
 
 .subtitle {
     text-align: center;
     font-size: 2.5rem;
     font-weight: 400;
+    text-transform: uppercase;
 }
 
 img {
     max-width: 100%;
 }
-
 
 .flex {
     display: flex;
@@ -82,6 +83,93 @@ form {
     }
 }
 
+//mainheader
+#mainheader {
+    width: 80%;
+    margin: 0 auto;
+    .navbar {
+        .container {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+        }
+        .logo {
+            font-size: 2.5rem;
+            font-weight: 400;
+        }
+        ul {
+            margin-top: 1rem;
+            display: flex;    
+        }   li {
+            display: inline-block;
+            margin-left: 1rem;
+        }
+        li:nth-child(5) {
+            margin-top: -.5rem;
+          }
+    }
+}
+
+//showcase
+#showcase {
+    width: 90%;
+    margin: 0 auto;
+.showcase-content {
+    p {
+        width: 100%;
+        font-size: 1.5rem;
+        text-align: left;
+        line-height: 30px;
+        margin-bottom: 2rem;
+    }
+    .btn {
+        width: fit-content;
+        margin-bottom: 2rem;
+    }
+    img {
+        width: 35%;
+    }
+    .show-cont-img {
+        margin-top: 1rem;
+        display: flex;
+        margin-bottom: 4rem;
+        img {
+            width: 50px;
+        }
+    }
+}
+}
+
+//games
+#games {
+   text-align: center;
+    margin: 0 auto;
+    h3 {
+        margin: 3rem 0;
+        font-weight: 400;
+    }
+        .games-flags {
+            display: flex;
+            text-align: center;
+            justify-content: center;
+            justify-items: center;
+            justify-self: center;
+            gap: 50px;
+
+            img {
+                width: 200px;
+                margin-bottom: 3rem;
+            }
+        }
+    hr {
+        width: 50%;
+        text-align: center;
+        margin: 0 auto;
+        display: block;
+       display: flex;
+    }
+}
+
 // Group
 #group {
 	padding: 80px 0;
@@ -101,6 +189,51 @@ form {
 		}
 	}
 } //End #group
+
+//about
+#about {
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 3rem;
+    h2 {
+        margin-bottom: 2rem;
+    }
+    .about-row {
+        display: flex;
+        gap: 50px;
+        img {
+            width: 50%;
+        }
+    }
+}
+
+//contact
+#contact {
+    width: 60%;
+    margin: 0 auto;
+    h2 {
+        margin-bottom: 2rem;
+    }
+    form {
+      
+        .flex-box-1 {
+            flex: 1;
+        }
+    }
+}
+
+//qatar
+#qatar {
+    margin-top: 4rem;
+    a {
+       
+        width: fit-content;
+        display: block;
+        margin: 0 auto;
+        margin-top: 4rem;
+    }
+    
+}
 
 //footer
 #footer {

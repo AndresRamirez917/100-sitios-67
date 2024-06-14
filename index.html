@@ -19,7 +19,7 @@
                     <li><a href="#group">group</a></li>
                     <li><a href="#about">about country</a></li>
                     <li><a href="#contact">contact</a></li>
-                    <li><a class="btn" href="">quatar 2022</a></li>
+                    <li><a class="btn" href="#qatar">quatar 2022</a></li>
                 </ul>
             </div>
         </nav>
@@ -27,9 +27,9 @@
 
 <!-- showcase -->
     <section id="showcase">
-        <div class="container">
+        <div class="container flex">
             <div class="showcase-content">
-                <h1>Portugal</h1>
+                <h1 class="title">Portugal</h1>
                 <p>
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore voluptatum repellendus eum odit ipsum neque nulla illo deserunt, delectus exercitationem modi, sapiente dicta, aut earum?
                 </p>
@@ -46,35 +46,33 @@
     </section>
 
     <section id="games">
-        <div class="container">
-            <h2>next game</h2>
-            <h3>Thursday, November 2024</h3>
-            <div class="games-flags flex">
-                <img src="/images/flag-portugal.jpeg" alt="">
-                <h3>vs</h3>
-                <img src="/images/flag-ghana.png" alt="">
-                <hr>
-            </div>
+            <h2 class="subtitle">next game</h2>
+            <h3 class="subtitle">Thursday, November 2024</h3>
+                <div class="games-flags">
+                    <img src="/images/flag-portugal.jpeg" alt="">
+                    <h3>vs</h3>
+                    <img src="/images/flag-ghana.png" alt="">
+                </div> 
+            <hr>
             <h3>Monday, November 28</h3>
-            <div class="games-flags flex">
+            <div class="games-flags">
                 <img src="/images/flag-portugal.jpeg" alt="">
                 <h3>vs</h3>
                 <img src="/images/flag-uruguay.png" alt="">
-                <hr>
             </div>
+            <hr>
             <h3>Wednesday, December 2</h3>
-            <div class="games-flags flex">
+            <div class="games-flags">
                 <img src="/images/flag-portugal.jpeg" alt="">
                 <h3>vs</h3>
-                <img src="/images/flag-south-korea.png" alt="">
-                <hr>
+                <img src="/images/flag-south-korea.png" alt="">            
             </div>
-        </div>
+            <hr>
     </section>
 
     <section id="group">
         <div class="container">
-            <h2>Group H</h2>
+            <h2 class="subtitle">Group H</h2>
             <div class="group-table">
                 <table>
                     <tr>
@@ -139,7 +137,7 @@
 
     <section id="about">
         <div class="container">
-            <h2 class="subtitle">about country</h2>
+            <h2 class="subtitle">About country</h2>
             <div class="about-row">
                 <img src="/images/about.jpeg" alt="">
                 <div class="about text">
@@ -148,6 +146,46 @@
                         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem sint animi libero corporis harum quasi unde et debitis natus dignissimos eum facilis neque possimus minima asperiores adipisci, eos sed nisi iure, fugit culpa aliquid cum repellendus! Delectus quasi reiciendis saepe quibusdam vero consequatur labore. Voluptate obcaecati sed odio placeat, asperiores vitae illo consequatur neque, cupiditate nihil, dolorum molestiae at nobis.</p>
                 </div>
             </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2 class="subtitle">contact us</h2>
+            <form action="">
+                <div class="form-group flex">
+                    <div class="flex-box-1">
+                        <label for="">Nombre</label>
+                        <input type="text" class="form-control" placeholder="">
+                    </div>
+                    <div class="flex-box-1">
+                        <label for="">Email</label>
+                        <input type="text" class="form-control" placeholder="">
+                    </div>
+                </div>
+                <div class="form-group flex">
+                    <div class="flex-box-1">
+                        <label for="">Fecha</label>
+                        <input type="date" class="form-control">
+                    </div>
+                    <div class="flex-box-1">
+                        <label for="">Hora</label>
+                        <input type="time" class="form-control">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="">Mensaje</label>
+                    <textarea name="" id="" cols="30" rows="10" class="form-control"></textarea>
+                </div>
+                <button class="btn button-2">submit</button>
+            </form>
+        </div>
+    </section>
+
+    <section id="qatar">
+        <div class="container">
+            <h2 class="subtitle">QATAR</h2>
+            <a href="#mainheader" class="btn">learn more</a>
         </div>
     </section>
     
