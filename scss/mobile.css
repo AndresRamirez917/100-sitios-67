@@ -36,6 +36,11 @@
   text-align: center;
   display: block;
 }
+#showcase .container .ronaldinho {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+}
 
 #about .about-row {
   display: block;
